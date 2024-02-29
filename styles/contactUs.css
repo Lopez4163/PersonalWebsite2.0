@@ -1,0 +1,79 @@
+body,
+html {
+  height: 100%;
+}
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 80px;
+
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 5px;
+  width: 100%;
+}
+.form-title {
+  text-align: center;
+}
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  transition: background-color 0.3s;
+}
+.form-container input:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.form-container input:hover {
+  background-color: rgba(222, 209, 209, 0.166);
+}
+.form-container input[type="submit"] {
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+}
+.form-container input[type="submit"]:hover {
+  background-color: #ff6600;
+}
+.form-container input:placeholder-shown {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+#message {
+  display: none;
+  color: #ff6600;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+  .form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+    width: 100%;
+  }
+  .form input {
+    width: 150px;
+  }
+}

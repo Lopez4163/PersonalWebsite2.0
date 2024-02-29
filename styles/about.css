@@ -1,0 +1,77 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+.about-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px 90px 20px 90px;
+  gap: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.section-container:hover {
+  transform: scale(1.05);
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+}
+.section-img {
+  width: 30vh;
+  height: 30vh;
+  border-radius: 10px;
+}
+.section-about-header-wrapper {
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+}
+.header-about-title {
+  font-size: 2rem;
+}
+
+body {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+  .section-about-header {
+    margin-top: 55px;
+    text-align: center;
+  }
+  .section-about-header-wrapper {
+    padding: 20px;
+    margin: 10px;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin: 0px 20px 20px 20px;
+  }
+  .text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}
