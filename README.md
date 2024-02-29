@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio app! This is a simple application showcasing my personal projects and a bit about me.
+Welcome to my portfolio app 2.0! This is a simple application showcasing my personal projects and a bit about me.
 
 ## Overview
 
