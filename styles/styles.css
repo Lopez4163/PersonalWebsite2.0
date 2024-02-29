@@ -70,6 +70,11 @@
   gap: 20px;
   width: 50%;
 }
+.home-intro-img {
+  height: 50vh;
+  width: 45vh;
+  border-radius: 10px;
+}
 
 .home-section-container-bottom {
   display: flex;
@@ -139,5 +144,9 @@ footer {
   .quote-wrapper {
     margin: 0px 35px 60px 35px;
     text-align: center;
+  }
+  .home-intro-img {
+    height: 30vh;
+    width: 30vh;
   }
 }
