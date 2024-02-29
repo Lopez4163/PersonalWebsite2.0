@@ -76,6 +76,9 @@
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+.home-intro-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
 .intro-text {
   font-size: 1.2rem;
   font-style: italic;
@@ -94,7 +97,12 @@
   margin: 30px 200px 30px 200px;
 }
 .movie-quote {
-  font-style: cursive;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.movie-quote-by {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 1.2rem;
 }
 footer {
   position: fixed;
