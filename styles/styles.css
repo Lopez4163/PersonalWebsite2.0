@@ -76,6 +76,10 @@
   border-radius: 10px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+.intro-text {
+  font-size: 1.2rem;
+  font-style: italic;
+}
 
 .home-section-container-bottom {
   display: flex;
@@ -88,6 +92,9 @@
   align-items: center;
   gap: 20px;
   margin: 30px 200px 30px 200px;
+}
+.movie-quote {
+  font-style: cursive;
 }
 footer {
   position: fixed;
@@ -122,6 +129,9 @@ footer {
 }
 .body-container {
   padding-top: 150px;
+}
+body {
+  background-color: #f9f6ee;
 }
 
 @media only screen and (min-width: 414px) and (max-width: 896px) {

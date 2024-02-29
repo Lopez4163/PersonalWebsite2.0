@@ -38,6 +38,10 @@
   padding: 30px;
   margin: 20px;
 }
+.section-text {
+  font-size: 1.2rem;
+  font-style: italic;
+}
 .header-about-title {
   font-size: 2rem;
 }
